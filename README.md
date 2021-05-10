@@ -1,0 +1,5 @@
+#README VENV_MABARAK
+
+##REQUISITOS
+*python3
+*flask
