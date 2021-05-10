@@ -10,6 +10,10 @@ def principal():
 def checkapi():
     return {'mensaje': 'API LISTA', 'success':True}
 
+@app.route('/api/saludo')
+def checkapisaludo():
+    return {'mensaje': 'API, HOLA MUNDO', 'success':True}
+
 
 if __name__ == '__main__':
     app.run(debug=True)
