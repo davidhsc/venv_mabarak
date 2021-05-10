@@ -6,5 +6,10 @@ app = Flask(__name__)
 def principal():
     return {'mensaje': 'hola mundo', 'success':True}
 
+@app.route('/api')
+def checkapi():
+    return {'mensaje': 'API LISTA', 'success':True}
+
+
 if __name__ == '__main__':
     app.run(debug=True)
